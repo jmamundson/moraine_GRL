@@ -330,8 +330,8 @@ ax[0].legend(bbox_to_anchor=(1 + 0.5*(xgap/ax_width),1.2), loc='upper center', n
 #fig.legend(ncols=5)
 
 for k in np.arange(0,len(profiles)):        
-    ax[k].set_ylim([5, 25])
-    ax[k].set_xlim([-200,100])
+    ax[k].set_ylim([5, 20])
+    ax[k].set_xlim([-200,200])
 
    
 
